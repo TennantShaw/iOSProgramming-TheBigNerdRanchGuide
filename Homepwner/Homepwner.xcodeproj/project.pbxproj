@@ -16,6 +16,7 @@
 		30DE29C71EC918E300099516 /* ItemsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30DE29C61EC918E300099516 /* ItemsViewController.swift */; };
 		30DE29C91EC91A3E00099516 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30DE29C81EC91A3E00099516 /* Item.swift */; };
 		30DE29CB1EC91DC400099516 /* ItemStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30DE29CA1EC91DC400099516 /* ItemStore.swift */; };
+		30DE29FF1EC9FE7100099516 /* ItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30DE29FE1EC9FE7100099516 /* ItemCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		30DE29C61EC918E300099516 /* ItemsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemsViewController.swift; sourceTree = "<group>"; };
 		30DE29C81EC91A3E00099516 /* Item.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
 		30DE29CA1EC91DC400099516 /* ItemStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemStore.swift; sourceTree = "<group>"; };
+		30DE29FE1EC9FE7100099516 /* ItemCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +106,7 @@
 				30DE29981EC9182E00099516 /* AppDelegate.swift */,
 				30DE29C61EC918E300099516 /* ItemsViewController.swift */,
 				30DE29C81EC91A3E00099516 /* Item.swift */,
+				30DE29FE1EC9FE7100099516 /* ItemCell.swift */,
 				30DE29CA1EC91DC400099516 /* ItemStore.swift */,
 				30DE299C1EC9182E00099516 /* Main.storyboard */,
 				30DE299F1EC9182E00099516 /* Assets.xcassets */,
@@ -269,6 +272,7 @@
 				30DE29C91EC91A3E00099516 /* Item.swift in Sources */,
 				30DE29CB1EC91DC400099516 /* ItemStore.swift in Sources */,
 				30DE29991EC9182E00099516 /* AppDelegate.swift in Sources */,
+				30DE29FF1EC9FE7100099516 /* ItemCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -515,6 +519,7 @@
 				30DE29BF1EC9182E00099516 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		30DE29C01EC9182E00099516 /* Build configuration list for PBXNativeTarget "HomepwnerTests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +528,7 @@
 				30DE29C21EC9182E00099516 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		30DE29C31EC9182E00099516 /* Build configuration list for PBXNativeTarget "HomepwnerUITests" */ = {
 			isa = XCConfigurationList;
@@ -531,6 +537,7 @@
 				30DE29C51EC9182E00099516 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
