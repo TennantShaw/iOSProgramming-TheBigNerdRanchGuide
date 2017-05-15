@@ -17,6 +17,7 @@
 		30DE29C91EC91A3E00099516 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30DE29C81EC91A3E00099516 /* Item.swift */; };
 		30DE29CB1EC91DC400099516 /* ItemStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30DE29CA1EC91DC400099516 /* ItemStore.swift */; };
 		30DE29FF1EC9FE7100099516 /* ItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30DE29FE1EC9FE7100099516 /* ItemCell.swift */; };
+		30DE2A011ECA0C4900099516 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30DE2A001ECA0C4900099516 /* DetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		30DE29C81EC91A3E00099516 /* Item.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
 		30DE29CA1EC91DC400099516 /* ItemStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemStore.swift; sourceTree = "<group>"; };
 		30DE29FE1EC9FE7100099516 /* ItemCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemCell.swift; sourceTree = "<group>"; };
+		30DE2A001ECA0C4900099516 /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,6 +110,7 @@
 				30DE29C81EC91A3E00099516 /* Item.swift */,
 				30DE29FE1EC9FE7100099516 /* ItemCell.swift */,
 				30DE29CA1EC91DC400099516 /* ItemStore.swift */,
+				30DE2A001ECA0C4900099516 /* DetailViewController.swift */,
 				30DE299C1EC9182E00099516 /* Main.storyboard */,
 				30DE299F1EC9182E00099516 /* Assets.xcassets */,
 				30DE29A11EC9182E00099516 /* LaunchScreen.storyboard */,
@@ -271,6 +274,7 @@
 				30DE29C71EC918E300099516 /* ItemsViewController.swift in Sources */,
 				30DE29C91EC91A3E00099516 /* Item.swift in Sources */,
 				30DE29CB1EC91DC400099516 /* ItemStore.swift in Sources */,
+				30DE2A011ECA0C4900099516 /* DetailViewController.swift in Sources */,
 				30DE29991EC9182E00099516 /* AppDelegate.swift in Sources */,
 				30DE29FF1EC9FE7100099516 /* ItemCell.swift in Sources */,
 			);
