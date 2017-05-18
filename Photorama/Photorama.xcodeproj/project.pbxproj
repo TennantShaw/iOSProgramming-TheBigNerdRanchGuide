@@ -17,6 +17,10 @@
 		30604B851ECC9BF600978F0E /* FlickrAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30604B841ECC9BF600978F0E /* FlickrAPI.swift */; };
 		30604B871ECCD8E600978F0E /* PhotoStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30604B861ECCD8E600978F0E /* PhotoStore.swift */; };
 		30604B891ECCDE2100978F0E /* Photo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30604B881ECCDE2100978F0E /* Photo.swift */; };
+		30DE0CC11ECDFDB0008608BE /* PhotoDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30DE0CC01ECDFDB0008608BE /* PhotoDataSource.swift */; };
+		30DE0CC31ECE0B6A008608BE /* PhotoCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30DE0CC21ECE0B6A008608BE /* PhotoCollectionViewCell.swift */; };
+		30DE0CC51ECE1118008608BE /* ImageStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30DE0CC41ECE1118008608BE /* ImageStore.swift */; };
+		30DE0CC71ECE1214008608BE /* PhotoInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30DE0CC61ECE1214008608BE /* PhotoInfoViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +57,10 @@
 		30604B841ECC9BF600978F0E /* FlickrAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlickrAPI.swift; sourceTree = "<group>"; };
 		30604B861ECCD8E600978F0E /* PhotoStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoStore.swift; sourceTree = "<group>"; };
 		30604B881ECCDE2100978F0E /* Photo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Photo.swift; sourceTree = "<group>"; };
+		30DE0CC01ECDFDB0008608BE /* PhotoDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoDataSource.swift; sourceTree = "<group>"; };
+		30DE0CC21ECE0B6A008608BE /* PhotoCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoCollectionViewCell.swift; sourceTree = "<group>"; };
+		30DE0CC41ECE1118008608BE /* ImageStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageStore.swift; sourceTree = "<group>"; };
+		30DE0CC61ECE1214008608BE /* PhotoInfoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoInfoViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,6 +116,10 @@
 				30604B881ECCDE2100978F0E /* Photo.swift */,
 				30604B841ECC9BF600978F0E /* FlickrAPI.swift */,
 				30604B861ECCD8E600978F0E /* PhotoStore.swift */,
+				30DE0CC41ECE1118008608BE /* ImageStore.swift */,
+				30DE0CC61ECE1214008608BE /* PhotoInfoViewController.swift */,
+				30DE0CC01ECDFDB0008608BE /* PhotoDataSource.swift */,
+				30DE0CC21ECE0B6A008608BE /* PhotoCollectionViewCell.swift */,
 				30604B581ECC9A2D00978F0E /* Main.storyboard */,
 				30604B5B1ECC9A2D00978F0E /* Assets.xcassets */,
 				30604B5D1ECC9A2D00978F0E /* LaunchScreen.storyboard */,
@@ -271,8 +283,12 @@
 				30604B851ECC9BF600978F0E /* FlickrAPI.swift in Sources */,
 				30604B831ECC9A3F00978F0E /* PhotosViewController.swift in Sources */,
 				30604B871ECCD8E600978F0E /* PhotoStore.swift in Sources */,
+				30DE0CC51ECE1118008608BE /* ImageStore.swift in Sources */,
+				30DE0CC11ECDFDB0008608BE /* PhotoDataSource.swift in Sources */,
+				30DE0CC31ECE0B6A008608BE /* PhotoCollectionViewCell.swift in Sources */,
 				30604B551ECC9A2D00978F0E /* AppDelegate.swift in Sources */,
 				30604B891ECCDE2100978F0E /* Photo.swift in Sources */,
+				30DE0CC71ECE1214008608BE /* PhotoInfoViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -519,6 +535,7 @@
 				30604B7B1ECC9A2D00978F0E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		30604B7C1ECC9A2D00978F0E /* Build configuration list for PBXNativeTarget "PhotoramaTests" */ = {
 			isa = XCConfigurationList;
@@ -527,6 +544,7 @@
 				30604B7E1ECC9A2D00978F0E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		30604B7F1ECC9A2D00978F0E /* Build configuration list for PBXNativeTarget "PhotoramaUITests" */ = {
 			isa = XCConfigurationList;
@@ -535,6 +553,7 @@
 				30604B811ECC9A2D00978F0E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
