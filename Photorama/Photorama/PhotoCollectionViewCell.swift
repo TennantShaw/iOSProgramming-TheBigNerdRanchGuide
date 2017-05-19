@@ -33,4 +33,13 @@ class PhotoCollectionViewCell: UICollectionViewCell {
         
         update(with: nil)
     }
+    
+    override var isAccessibilityElement: Bool {
+        get {
+            return true
+        }
+        set {
+            super.isAccessibilityElement = newValue
+        }
+    }
 }
